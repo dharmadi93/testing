@@ -1,3 +1,3 @@
-/**
- * Created by dharmadi93 on 11/5/16.
- */
+const mocha = require('mocha')
+const expect = require('chai').expect
+const lib = require('../lib/lib')
