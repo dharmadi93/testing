@@ -22,3 +22,10 @@ describe("Test isNumber", () => {
         expect(lib.isNumber("21312")).to.be.true
     })
 })
+
+// IS EMAIL
+describe("Test isEmail", () => {
+    it("returns true if email format corret", () => {
+        expect(lib.isEmail("dharmadi93@gmail.com")).to.be.true
+    })
+})
