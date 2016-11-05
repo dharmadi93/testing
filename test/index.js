@@ -16,16 +16,23 @@ describe("Test MoreThanFour", () => {
     })
 })
 
-// IS NUMBER
+// 3 IS NUMBER
 describe("Test isNumber", () => {
     it("returns true if all numbers", () => {
         expect(lib.isNumber("21312")).to.be.true
     })
 })
 
-// IS EMAIL
+// 4 IS EMAIL
 describe("Test isEmail", () => {
     it("returns true if email format corret", () => {
         expect(lib.isEmail("dharmadi93@gmail.com")).to.be.true
+    })
+})
+
+// 5 HARD PASSWORD MUST CONTAIN ONE CAPITAL LETTER, NUMBER, AND SYMBOL
+describe("Test isEmail", () => {
+    it("returns true if email format corret", () => {
+        expect(lib.hardPassword("@Testing1")).to.be.true
     })
 })
