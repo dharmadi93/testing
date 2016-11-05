@@ -31,8 +31,15 @@ describe("Test isEmail", () => {
 })
 
 // 5 HARD PASSWORD MUST CONTAIN ONE CAPITAL LETTER, NUMBER, AND SYMBOL
-describe("Test isEmail", () => {
-    it("returns true if email format corret", () => {
+describe("Test Hard Password", () => {
+    it("returns true if password format corret", () => {
         expect(lib.hardPassword("@Testing1")).to.be.true
+    })
+})
+
+// Contain Street
+describe("Test Contain Street", () => {
+    it("returns true if contain street", () => {
+        expect(lib.containStreet("strEet apa")).to.be.true
     })
 })
